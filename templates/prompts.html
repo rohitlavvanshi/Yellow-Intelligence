@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manage Prompts</title>
+    <style>
+        body {
+            background: #020617;
+            color: #e5e7eb;
+            font-family: system-ui, sans-serif;
+            padding: 32px;
+        }
+
+        .top-bar {
+            max-width: 900px;
+            margin: 0 auto 16px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .back-btn {
+            background: transparent;
+            border: 1px solid #1f2937;
+            color: #e5e7eb;
+            padding: 10px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back-btn:hover {
+            background: #020617;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #111827;
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid #1f2937;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            background: #020617;
+            color: #e5e7eb;
+            border: 1px solid #1f2937;
+            border-radius: 8px;
+            padding: 12px;
+            font-family: monospace;
+            margin-bottom: 24px;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        button {
+            background: #6366f1;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 🔙 Top-left back button -->
+<div class="top-bar">
+    <a href="/" class="back-btn">← Back to Home</a>
+</div>
+
+<div class="container">
+    <h2>Prompt Configuration</h2>
+
+    <form method="POST">
+
+        {% for key, value in prompts.items() %}
+            <label><strong>{{ key }}</strong></label>
+            <textarea name="{{ key }}">{{ value }}</textarea>
+        {% endfor %}
+
+        <div class="actions">
+            <button type="submit">Save Prompts</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
