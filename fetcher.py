@@ -1,70 +1,82 @@
-# fetcher.py
 import requests
 from bs4 import BeautifulSoup
 from readability import Document
+import re
+import time
 
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/120.0.0.0 Safari/537.36"
-    )
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
 }
 
 
-def fetch_article(url: str, timeout: int = 12) -> str:
-    """
-    Fetch and extract main article text.
-    This function is FAIL-SAFE and will NEVER raise.
-    """
-
+def fetch_article(url: str, timeout=10) -> str:
     if not url:
         return ""
 
     try:
-        response = requests.get(
-            url,
-            headers=HEADERS,
-            timeout=timeout,
-            allow_redirects=True
-        )
-        response.raise_for_status()
-        html = response.text
-    except Exception:
-        return ""
+        resp = requests.get(url, headers=HEADERS, timeout=timeout)
+        if resp.status_code != 200:
+            return ""
 
-    if not html or len(html.strip()) < 200:
-        return ""
+        html = resp.text.strip()
+        if not html:
+            return ""
 
-    # ---------- ATTEMPT 1: Readability ----------
-    try:
-        doc = Document(html)
-        summary_html = doc.summary(html_partial=True)
-
-        if summary_html and len(summary_html.strip()) > 200:
-            soup = BeautifulSoup(summary_html, "html.parser")
-            text = soup.get_text(separator="\n").strip()
-            if len(text) > 200:
+        # ---------- Attempt 1: Readability ----------
+        try:
+            doc = Document(html)
+            content_html = doc.summary(html_partial=True)
+            text = _html_to_text(content_html)
+            if _is_valid(text):
                 return text
-    except Exception:
-        pass  # fall through safely
+        except Exception:
+            pass
 
-    # ---------- ATTEMPT 2: Fallback to <p> extraction ----------
-    try:
+        # ---------- Attempt 2: BeautifulSoup ----------
         soup = BeautifulSoup(html, "html.parser")
-        paragraphs = soup.find_all("p")
 
-        texts = [
-            p.get_text(strip=True)
-            for p in paragraphs
-            if len(p.get_text(strip=True)) > 50
+        # Remove scripts/styles
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+
+        paragraphs = [
+            p.get_text(" ", strip=True)
+            for p in soup.find_all("p")
         ]
 
-        combined = "\n".join(texts)
-        if len(combined) > 200:
-            return combined
-    except Exception:
-        pass
+        text = "\n".join(paragraphs)
+        if _is_valid(text):
+            return text
 
-    # ---------- FINAL FALLBACK ----------
+        # ---------- Attempt 3: Meta description ----------
+        desc = soup.find("meta", attrs={"name": "description"})
+        if desc and desc.get("content"):
+            return desc["content"].strip()
+
+    except Exception as e:
+        print("Fetch failed:", e)
+
     return ""
+
+
+# -----------------------------
+# Helpers
+# -----------------------------
+def _html_to_text(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    return soup.get_text("\n", strip=True)
+
+
+def _is_valid(text: str) -> bool:
+    if not text:
+        return False
+
+    text = re.sub(r"\s+", " ", text).strip()
+
+    # Require minimum content
+    return len(text) > 500

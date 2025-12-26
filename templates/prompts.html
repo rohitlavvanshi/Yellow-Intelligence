@@ -1,100 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Manage Prompts</title>
+    <meta charset="UTF-8">
+    <title>Edit Prompts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
+            margin: 0;
+            padding: 32px;
             background: #020617;
             color: #e5e7eb;
-            font-family: system-ui, sans-serif;
-            padding: 32px;
+            font-family: Inter, system-ui, sans-serif;
         }
 
         .top-bar {
-            max-width: 900px;
-            margin: 0 auto 16px;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
+            margin-bottom: 24px;
         }
 
-        .back-btn {
+        .btn {
+            padding: 10px 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .btn-back {
             background: transparent;
             border: 1px solid #1f2937;
             color: #e5e7eb;
-            padding: 10px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 14px;
         }
 
-        .back-btn:hover {
+        .btn-save {
+            background: #6366f1;
+            color: white;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 260px;
             background: #020617;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: #111827;
-            padding: 24px;
-            border-radius: 12px;
             border: 1px solid #1f2937;
+            border-radius: 10px;
+            color: #e5e7eb;
+            padding: 14px;
+            font-size: 14px;
+            line-height: 1.6;
+            resize: vertical;
         }
 
         h2 {
             margin-top: 0;
         }
 
-        textarea {
-            width: 100%;
-            min-height: 180px;
-            background: #020617;
-            color: #e5e7eb;
-            border: 1px solid #1f2937;
-            border-radius: 8px;
-            padding: 12px;
-            font-family: monospace;
-            margin-bottom: 24px;
-        }
-
-        .actions {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        button {
-            background: #6366f1;
-            color: white;
-            border: none;
-            padding: 12px 18px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 14px;
+        .block {
+            margin-bottom: 32px;
         }
     </style>
 </head>
+
 <body>
 
-<!-- 🔙 Top-left back button -->
-<div class="top-bar">
-    <a href="/" class="back-btn">← Back to Home</a>
-</div>
+<form method="POST">
 
-<div class="container">
-    <h2>Prompt Configuration</h2>
+    <div class="top-bar">
+        <a href="/" class="btn btn-back">← Back</a>
+        <button type="submit" class="btn btn-save">Save Prompts</button>
+    </div>
 
-    <form method="POST">
+    <div class="block">
+        <h2>Query Generation Prompt</h2>
+        <textarea name="PROMPT_BUILDER_INSTRUCTIONS">{{ prompts.PROMPT_BUILDER_INSTRUCTIONS }}</textarea>
+    </div>
 
-        {% for key, value in prompts.items() %}
-            <label><strong>{{ key }}</strong></label>
-            <textarea name="{{ key }}">{{ value }}</textarea>
-        {% endfor %}
+    <div class="block">
+        <h2>Article Evaluation Prompt</h2>
+        <textarea name="ARTICLE_EVALUATION_INSTRUCTIONS">{{ prompts.ARTICLE_EVALUATION_INSTRUCTIONS }}</textarea>
+    </div>
 
-        <div class="actions">
-            <button type="submit">Save Prompts</button>
-        </div>
-
-    </form>
-</div>
+</form>
 
 </body>
 </html>

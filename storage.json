@@ -1,9 +1,852 @@
 {
-  "context": "PRIMARY MARKET TOKENS\r\nhyperscale data center\r\ncloud data center\r\ncolocation data center / MTDC\r\nenterprise data center / on-prem data center operator\r\nedge data center / micro data center\r\ndata center campus\r\ntelecom central office\r\nwireless tower power and cooling\r\n5G infrastructure\r\nindustrial critical infrastructure\r\nsemiconductor fab infrastructure\r\nMARKET LANGUAGE (HIGH-VALUE SEARCH PHRASES)\r\ncritical digital infrastructure\r\nmission-critical infrastructure\r\nAI data center infrastructure\r\nHPC data center\r\naccelerated computing infrastructure\r\nhigh-density compute\r\nrack power density / rack kW\r\nthermal design power (TDP)\r\ndata center power capacity / MW allocation\r\ndata center cooling capacity\r\nliquid cooling adoption\r\ndirect-to-chip (DTC) cooling\r\nrear-door heat exchanger (RDHx)\r\ncoolant distribution unit (CDU)\r\nimmersion cooling\r\nPUE improvement / energy efficiency retrofit\r\nfree cooling chiller / economization\r\ngrid interconnection / substation upgrade\r\nCUSTOMER ARCHETYPES (CANONICAL)\r\nhyperscalers / cloud providers (CSPs)\r\ncolocation / MTDC operators\r\nenterprise data center owners (on-prem / hybrid)\r\ntelecom carriers / mobile network operators\r\ngovernment / public sector / defense (critical sites)\r\nindustrial facility operators with mission-critical environments\r\nsemiconductor manufacturers / foundries\r\nNAMED ENTITIES (QUERY ANCHORS)\r\nAmazon Web Services (AWS)\r\nMicrosoft Azure\r\nGoogle Cloud\r\nOracle Cloud\r\nMeta Platforms\r\nEquinix\r\nDigital Realty\r\nCoreWeave\r\nAT&T\r\nVerizon\r\nVodafone\r\nTelef\u00f3nica\r\nChina Mobile\r\nTSMC\r\nSamsung Electronics (foundry)\r\nIntel Foundry\r\nDEMAND TRIGGERS (WHAT TO SEARCH FOR)\r\nhyperscaler AI data center buildout\r\nAI infrastructure investment / AI factory buildout\r\nGPU cluster deployment / NVIDIA data center GPU rollout\r\nAI model training cluster expansion\r\nrack power density increase / high-density rack upgrades\r\nliquid cooling adoption / DTC rollout / RDHx deployment\r\nHPC cluster thermal upgrade\r\ndata center capacity shortage / leasing MW / new campus announcement\r\ngrid-constrained data center projects / power shortage / interconnection queue\r\npower capacity expansion (substation, transmission upgrade, MW allocation)\r\ndata center refresh cycle / UPS upgrade / cooling plant upgrade\r\n5G rollout power and cooling upgrades\r\ncentral office modernization\r\nedge computing rollout / edge sites expansion\r\nsemiconductor fab expansion / fab infrastructure tender\r\nDEPENDENCY TOKENS (PROGRAMS / PROJECT TYPES)\r\nmodular data center deployment\r\nprefabricated data center vs stick-built\r\ncontainerized data center deployment\r\nPUE improvement project\r\ndata center energy efficiency retrofit\r\ndata center retrofit programs (brownfield upgrades)\r\nECOSYSTEM / PARTNER TOKENS\r\nNVIDIA data center reference design + Vertiv\r\nNVIDIA liquid cooling ecosystem partner + Vertiv\r\nNVIDIA AI factory power and cooling\r\nNVIDIA DGX cooling requirements\r\nNVIDIA Kyber data center architecture + Vertiv\r\nIntel + Vertiv data center collaboration\r\nAMD data center cooling requirements\r\ncloud provider rack power / power density specifications\r\ntelecom 5G power system upgrade\r\nsemiconductor fab critical power project\r\nCaterpillar + Vertiv backup power collaboration\r\nOklo + Vertiv nuclear-powered data center collaboration\r\nSUPPLY CHAIN: INPUTS (MATERIALS / COMPONENTS)\r\nMETALS & CONDUCTORS (INPUTS)\r\nstructural steel\r\nsheet steel\r\nelectrical steel\r\naluminum busbar\r\naluminum extrusions (busway)\r\ncopper busbar\r\ncopper wire and cable\r\nMETALS & CONDUCTORS (SUPPLIER TOKENS)\r\nNucor steel (data center)\r\nArcelorMittal steel (data center)\r\nUS Steel electrical steel\r\ncopper busbar manufacturer\r\naluminum busbar manufacturer\r\nMexico steel supplier switchgear\r\nPOWER ELECTRONICS & PROTECTION (INPUTS)\r\npower semiconductor modules\r\nIGBT modules\r\npower MOSFETs\r\ngate driver ICs\r\nrectifier modules\r\ninverter modules\r\ncircuit breakers\r\nmolded-case circuit breakers\r\nprotection relays\r\nPOWER ELECTRONICS & PROTECTION (SUPPLIER TOKENS)\r\nABB circuit breakers\r\nSchneider Electric breakers\r\nEaton breakers\r\nSiemens protection devices\r\nMitsubishi Electric power modules\r\nInfineon power semiconductors\r\nSTMicroelectronics power modules\r\nonsemi power devices\r\nCONTROL ELECTRONICS (INPUTS)\r\nPLC boards / industrial controllers\r\nmicrocontrollers (MCU) / embedded SoC modules\r\nindustrial Ethernet controllers\r\ntemperature sensors / humidity sensors / airflow sensors\r\nIoT gateway modules\r\nCONTROL ELECTRONICS (SUPPLIER TOKENS)\r\nNXP industrial MCU\r\nTexas Instruments industrial MCU\r\nSTMicroelectronics industrial MCU\r\nRenesas industrial MCU\r\nAdvantech embedded board\r\nKontron embedded computing\r\nSiemens PLC board OEM\r\nBATTERIES & ENERGY STORAGE (INPUTS)\r\nVRLA UPS batteries\r\nlithium-ion UPS batteries\r\nBESS container modules\r\nbattery racks\r\nBMS (battery management system)\r\nBATTERIES & ENERGY STORAGE (SUPPLIER TOKENS)\r\nCATL UPS batteries\r\nLG Energy Solution UPS batteries\r\nSamsung SDI UPS batteries\r\nPanasonic industrial batteries\r\nEnerSys data center batteries\r\nGS Yuasa industrial batteries\r\nBYD batteries\r\nREFRIGERANTS & COOLING MEDIA (INPUTS)\r\nHFO-1234ze(E) refrigerant\r\nHFO-1234yf refrigerant\r\nR-513A refrigerant\r\nR-410A refrigerant\r\nR-134a refrigerant\r\nglycol\u2013water coolant mix\r\nengineered dielectric coolant fluid\r\nimmersion cooling dielectric fluid\r\nREFRIGERANTS & COOLING MEDIA (SUPPLIER TOKENS)\r\nChemours Opteon refrigerants\r\nHoneywell Solstice refrigerants\r\nArkema Forane refrigerants\r\nLinde refrigerants\r\n3M dielectric fluid (immersion cooling)\r\nShell immersion cooling fluid\r\nExxonMobil immersion cooling fluid\r\nMECHANICAL COMPONENTS (INPUTS)\r\nEC fans for data centers\r\nrear-door heat exchangers (RDHx)\r\nplate heat exchangers\r\npumps for liquid cooling\r\ncontrol valves for coolant loops\r\nsheet metal enclosures\r\nserver racks and cabinets\r\nMECHANICAL COMPONENTS (SUPPLIER TOKENS)\r\nebm-papst data center fans\r\nZiehl-Abegg data center fans\r\nAlfa Laval heat exchangers\r\nSWEP plate heat exchangers\r\nDanfoss pumps and valves\r\nGrundfos pumps\r\nPentair enclosures\r\nRittal racks and cabinets\r\nLOGISTICS & FULFILLMENT TOKENS\r\nglobal container shipping data center equipment\r\nport congestion electronics / electrical equipment\r\nair freight critical power modules\r\nsemiconductor lead times industrial controls\r\nUS\u2013Mexico cross-border logistics / USMCA\r\nMexico trucking corridor electrical equipment\r\nheavy freight (UPS/FedEx) data center equipment\r\nrail freight switchgear and cabinets\r\nCAPACITY / FOOTPRINT TOKENS\r\nVertiv manufacturing expansion South Carolina Pelzer\r\nVertiv Mexico manufacturing USMCA qualified\r\nVertiv India factory Ambernath\r\nVertiv India manufacturing expansion\r\nVertiv Slovakia switchgear factory\r\nVertiv Ireland modular data center factory\r\nVertiv UAE Ras Al Khaimah plant\r\nVertiv liquid cooling capacity expansion\r\nVertiv modular/prefabricated capacity expansion\r\nVertiv supply chain diversification from China\r\nTRADE & TARIFF TOKENS (SEARCH BY JURISDICTION)\r\nUS\r\nSection 232 tariffs steel aluminum United States\r\nSection 301 tariffs China electronics United States\r\nreciprocal tariff proposals United States\r\nUSMCA rules of origin electrical equipment US Mexico Canada\r\nBuy American industrial equipment United States\r\nexport controls advanced cooling / high-performance computing United States\r\nEU\r\nEU CBAM carbon border adjustment steel aluminum European Union\r\nEU anti-dumping duties electrical equipment European Union\r\nEU trade defence measures electrical cabinets European Union\r\nCHINA\r\nChina retaliatory tariffs US electrical equipment\r\nChina export controls critical metals electronics\r\nENVIRONMENT & SUSTAINABILITY TOKENS\r\nUS\r\nUS EPA data center energy efficiency guidance\r\nUS DOE COOLERCHIPS advanced cooling program\r\nUS greenhouse gas reporting manufacturing\r\nstate water use restrictions industrial cooling\r\nEU / UK / GLOBAL\r\nEU ESOS energy savings opportunity scheme\r\nEU Ecodesign data center products\r\nEU energy efficiency directive data centers\r\nEU taxonomy climate mitigation data centers\r\nEU F-gas regulation / HFC phase-down\r\nUK ESOS / SECR reporting\r\nISO 14001 environmental management\r\nISO 50001 energy management\r\nISO 14064 GHG quantification\r\nCUSTOMER-SIDE ENVIRONMENT TOKENS (CUSTOMERS\u2019 PERMITTING / COMPLIANCE)\r\nEU data center sustainability regulation\r\nnational energy efficiency requirements data centers\r\nCalifornia Title 24 data center efficiency\r\nLEED data center certification\r\nwater scarcity cooling technology shift\r\nQUALITY / SAFETY / CONTINUITY / INFOSEC TOKENS\r\nISO 9001 quality management\r\nISO 45001 occupational health and safety\r\nISO 22301 business continuity\r\nISO 27001 information security\r\nUL certification UPS / PDU\r\nCE marking low voltage directive\r\nTELECOM / NETWORK STANDARDS TOKENS\r\n3GPP 5G RAN power and cooling requirements\r\nTIA telecom infrastructure standards\r\nETSI telecom site power standards\r\nFCC telecom infrastructure rules\r\nOfcom network reliability rules\r\nBEREC data center telecom guidance\r\nGEOGRAPHY TOKENS (FILTERS)\r\nVertiv Americas (North America, Latin America)\r\nVertiv APAC (Greater China, Southeast Asia, India, Australia & New Zealand)\r\nVertiv EMEA (Europe, Middle East, Africa)\r\nVertiv United States hyperscale data center\r\nVertiv Mexico manufacturing\r\nVertiv China data center market\r\nVertiv India manufacturing and sales\r\nVertiv EU data center customers\r\nVertiv Middle East UAE manufacturing\r\nVertiv Singapore data center cooling\r\nVertiv Australia data center thermal\r\nCOMPETITORS (POWER / COOLING)\r\nSchneider Electric data center\r\nEaton data center power\r\nABB data center power\r\nSiemens data center power\r\nHuawei Digital Power\r\nJohnson Controls data center cooling\r\nSTULZ data center cooling\r\nDaikin data center cooling\r\nTrane data center cooling\r\nCarrier data center cooling\r\nDanfoss data center cooling\r\nCOMPETITORS (IT / COMPUTE / ADJACENT)\r\nSuper Micro Computer liquid cooling\r\nHPE data center solutions\r\nCisco data center solutions\r\nDell Technologies data center infrastructure\r\nCOMPETITORS (MODULAR / EDGE / SPECIALTY)\r\nVapor IO modular edge data center\r\nSchneider EcoStruxure modular data center\r\nHPE edge data center solutions\r\n3M immersion cooling\r\nParker Hannifin thermal management\r\nAspen Systems electronics cooling\r\nSUBSTITUTION / DESIGN-CHOICE TOKENS\r\nair-cooled vs liquid-cooled data center\r\nprefabricated modular data center vs stick-built\r\nintegrated vendor stack power and cooling vs multi-vendor\r\nhyperscaler in-house data center design\r\nin-house liquid cooling (hyperscaler-designed)\r\nimmersion cooling vs DTC vs RDHx\r\nMACRO SENSITIVITY TOKENS\r\nhyperscaler AI capex boom\r\nhyperscaler capex slowdown\r\nAI infrastructure capex cycle\r\ndata center power shortage\r\ngrid capacity constraint data centers\r\nelectricity price spike data centers\r\nsteel price spike electrical equipment\r\ncopper price surge power infrastructure\r\ntariff shock electrical equipment\r\nsemiconductor shortage industrial controls\r\nlabor cost inflation manufacturing Mexico\r\nlabor cost inflation manufacturing India\r\nglobal shipping cost spike heavy equipment\r\nFX sensitivity (USD vs EMEA/APAC currencies)\r\nEXTERNAL EVENT TOKENS (COMPANY + MARKET)\r\nVertiv manufacturing expansion / consolidation\r\nVertiv capacity expansion / capacity constraint\r\nVertiv supply chain diversification update\r\nVertiv liquid cooling portfolio update\r\nVertiv modular/prefabricated data center launch\r\nVertiv AI infrastructure launch\r\nVertiv partnership announcement\r\nVertiv backlog disclosure\r\nVertiv earnings guidance update\r\nhyperscaler data center capex announcement\r\ncolocation data center campus announcement\r\ntelecom central office modernization program\r\nsemiconductor fab infrastructure tender\r\ntrade tariff update electrical equipment\r\nenvironmental regulation update data centers\r\nrefrigerant regulation update (F-gas / HFC phase-down)\r\nadvanced cooling research grant announcement\r\nSEARCH VOCABULARY & ALIAS MAP (DEDUPED)\r\ncompany identifiers: Vertiv, VRT\r\npower: UPS, power distribution, rack PDU, switchgear, busbar, busway, AC power, DC power, telecom DC plant, rectifier, inverter\r\nthermal: CRAC, CRAH, in-row cooling, chiller, free cooling, economization, heat rejection, evaporative cooling\r\nliquid/high-density: liquid cooling, CDU, coolant distribution unit, direct-to-chip (DTC), RDHx, immersion cooling, dielectric fluid\r\nsoftware/ops: DCIM, remote monitoring, predictive maintenance, service SLA, commissioning, field service\r\nBUSINESS SCOPE & BOUNDARIES\r\nIN-SCOPE\r\ncritical digital infrastructure\r\nmission-critical infrastructure\r\ndata center infrastructure (hyperscale, cloud, colocation/MTDC, enterprise/on-prem, edge/micro)\r\nAI / HPC data center infrastructure (accelerated computing, GPU clusters, high-density racks)\r\nedge computing infrastructure\r\ntelecom / communication networks infrastructure (telecom central office, wireless tower, 5G site power + cooling)\r\ncommercial & industrial critical environments\r\nhealthcare critical power\r\nsemiconductor fab critical power and cooling infrastructure\r\ndata center power systems (AC power management, DC power systems/telecom DC plants)\r\nUPS systems (single-phase UPS, three-phase UPS, rack UPS)\r\nrack power distribution (rack PDUs / intelligent PDUs)\r\nswitchgear (low voltage / medium voltage)\r\nbusbar / busway / busbar trunking systems\r\nthermal management (data center cooling, high-density cooling)\r\nliquid cooling systems (direct-to-chip liquid cooling, coolant distribution units/CDU, rear-door heat exchangers/RDHx)\r\nimmersion cooling infrastructure (dielectric fluids, immersion ecosystem)\r\nmodular / prefabricated data centers\r\ncontainerized data centers\r\nracks, cabinets, integrated rack systems\r\nKVM switches, serial consoles\r\nIT infrastructure management hardware + software\r\nDCIM / monitoring software\r\nremote monitoring services\r\npredictive maintenance services\r\nfield services (installation, commissioning, testing)\r\nmaintenance contracts / service SLAs\r\nservices & spares (consulting, training, spare parts)\r\nenergy storage solutions (UPS batteries, battery energy storage systems/BESS)\r\nOUT-OF-SCOPE (HARD EXCLUDES; SUPPRESS NOISY QUERIES)\r\ncloud services (SaaS / PaaS / IaaS as service delivery)\r\noperating/running data centers (colocation landlord / REIT operations)\r\ntelecom service delivery (consumer/mobile plans, carrier services)\r\nserver manufacturing; GPU / CPU manufacturing\r\nstorage arrays (SAN/NAS)\r\ngeneric building HVAC / comfort cooling (non-critical)\r\ngeneric facility management software\r\nbusiness applications (ERP / CRM)\r\nsemiconductor fabrication process tools\r\nrenewable generation ownership (solar/wind farms)\r\n\r\n\r\nPrompt\r\nConduct Company Research for Company Context\r\nConduct detailed research on Vertiv. Using the above criteria conduct in-depth research about the company, and produce the required context about the company that can be used to generate contextual search queries. Use sharp and concise language, not narratives. Note only current situation of the company, historical data is not needed. All information must be absolutely true. Look at reputed sources for information. Information is to be consumed by an LLM so the formatting is meant to be easily consumable by LLMs. Dont give as Json, give as text.\r\n\r\nBusiness scope & boundaries\r\nWhat businesses, markets, and activities are in scope\r\nWhat is explicitly out of scope (to prevent noisy queries)\r\n\r\n\r\nEnd markets served\r\nPrimary and secondary markets\r\nMarket terminology used externally (industry language)\r\n\r\n\r\nCustomer archetypes\r\nBuyer types (e.g., hyperscalers, colocation, enterprise, industrial)\r\nHow these customers are referred to in news and filings\r\n\r\n\r\nDemand triggers & dependency points\r\nExternal events that cause demand to rise/fall\r\nStructural dependencies (capex cycles, buildouts, refresh cycles)\r\n\r\n\r\nUpstream ecosystem dependencies\r\nIndustries or actors that drive demand indirectly\r\nCapex owners, infrastructure owners, platform players\r\n\r\n\r\nSupply chain & fulfillment dependencies\r\nCritical inputs/components\r\nLogistics or capacity dependencies that appear in external news\r\n\r\n\r\nRegulatory & policy exposure surfaces\r\nPolicies, permits, trade rules, standards that can show up in news\r\nGovernment bodies and regulators to watch\r\n\r\n\r\nGeographic exposure map\r\n\r\n\r\nRegions/countries where signals matter\r\nLocation-specific terminology used in reporting and media\r\n\r\n\r\nCompetitive & substitution landscape\r\nCompetitors, alternative technologies, adjacent solutions\r\nTerms journalists and analysts use to describe competition\r\n\r\n\r\nMacro sensitivity surfaces (not macro data itself)\r\nMacro variables that matter to this business\r\nWhere macro news intersects with customers or suppliers\r\n\r\n\r\nExternal event types that matter\r\nAnnouncements, capex plans, expansions, shutdowns, delays\r\nPolicy changes, shortages, strikes, financing changes\r\nSearch vocabulary & alias map\r\nProduct and solution keywords\r\nIndustry jargon and abbreviations\r\nSynonyms used across regions\r\nEntity watchlists\r\nCustomers, suppliers, partners, competitors\r\nGovernment agencies, standards bodies, trade groups\r\n\r\n\r\n",
+  "context": "PRIMARY MARKET TOKENS\r\nhyperscale data center\r\ncloud data center\r\ncolocation data center / MTDC\r\nenterprise data center / on-prem data center operator\r\nedge data center / micro data center\r\ndata center campus\r\ntelecom central office\r\nwireless tower power and cooling\r\n5G infrastructure\r\nindustrial critical infrastructure\r\nsemiconductor fab infrastructure\r\nMARKET LANGUAGE (HIGH-VALUE SEARCH PHRASES)\r\ncritical digital infrastructure\r\nmission-critical infrastructure\r\nAI data center infrastructure\r\nHPC data center\r\naccelerated computing infrastructure\r\nhigh-density compute\r\nrack power density / rack kW\r\nthermal design power (TDP)\r\ndata center power capacity / MW allocation\r\ndata center cooling capacity\r\nliquid cooling adoption\r\ndirect-to-chip (DTC) cooling\r\nrear-door heat exchanger (RDHx)\r\ncoolant distribution unit (CDU)\r\nimmersion cooling\r\nPUE improvement / energy efficiency retrofit\r\nfree cooling chiller / economization\r\ngrid interconnection / substation upgrade\r\nCUSTOMER ARCHETYPES (CANONICAL)\r\nhyperscalers / cloud providers (CSPs)\r\ncolocation / MTDC operators\r\nenterprise data center owners (on-prem / hybrid)\r\ntelecom carriers / mobile network operators\r\ngovernment / public sector / defense (critical sites)\r\nindustrial facility operators with mission-critical environments\r\nsemiconductor manufacturers / foundries\r\nNAMED ENTITIES (QUERY ANCHORS)\r\nAmazon Web Services (AWS)\r\nMicrosoft Azure\r\nGoogle Cloud\r\nOracle Cloud\r\nMeta Platforms\r\nEquinix\r\nDigital Realty\r\nCoreWeave\r\nAT&T\r\nVerizon\r\nVodafone\r\nTelef\u00f3nica\r\nChina Mobile\r\nTSMC\r\nSamsung Electronics (foundry)\r\nIntel Foundry\r\nDEMAND TRIGGERS (WHAT TO SEARCH FOR)\r\nhyperscaler AI data center buildout\r\nAI infrastructure investment / AI factory buildout\r\nGPU cluster deployment / NVIDIA data center GPU rollout\r\nAI model training cluster expansion\r\nrack power density increase / high-density rack upgrades\r\nliquid cooling adoption / DTC rollout / RDHx deployment\r\nHPC cluster thermal upgrade\r\ndata center capacity shortage / leasing MW / new campus announcement\r\ngrid-constrained data center projects / power shortage / interconnection queue\r\npower capacity expansion (substation, transmission upgrade, MW allocation)\r\ndata center refresh cycle / UPS upgrade / cooling plant upgrade\r\n5G rollout power and cooling upgrades\r\ncentral office modernization\r\nedge computing rollout / edge sites expansion\r\nsemiconductor fab expansion / fab infrastructure tender\r\nDEPENDENCY TOKENS (PROGRAMS / PROJECT TYPES)\r\nmodular data center deployment\r\nprefabricated data center vs stick-built\r\ncontainerized data center deployment\r\nPUE improvement project\r\ndata center energy efficiency retrofit\r\ndata center retrofit programs (brownfield upgrades)\r\nECOSYSTEM / PARTNER TOKENS\r\nNVIDIA data center reference design + Vertiv\r\nNVIDIA liquid cooling ecosystem partner + Vertiv\r\nNVIDIA AI factory power and cooling\r\nNVIDIA DGX cooling requirements\r\nNVIDIA Kyber data center architecture + Vertiv\r\nIntel + Vertiv data center collaboration\r\nAMD data center cooling requirements\r\ncloud provider rack power / power density specifications\r\ntelecom 5G power system upgrade\r\nsemiconductor fab critical power project\r\nCaterpillar + Vertiv backup power collaboration\r\nOklo + Vertiv nuclear-powered data center collaboration\r\nSUPPLY CHAIN: INPUTS (MATERIALS / COMPONENTS)\r\nMETALS & CONDUCTORS (INPUTS)\r\nstructural steel\r\nsheet steel\r\nelectrical steel\r\naluminum busbar\r\naluminum extrusions (busway)\r\ncopper busbar\r\ncopper wire and cable\r\nMETALS & CONDUCTORS (SUPPLIER TOKENS)\r\nNucor steel (data center)\r\nArcelorMittal steel (data center)\r\nUS Steel electrical steel\r\ncopper busbar manufacturer\r\naluminum busbar manufacturer\r\nMexico steel supplier switchgear\r\nPOWER ELECTRONICS & PROTECTION (INPUTS)\r\npower semiconductor modules\r\nIGBT modules\r\npower MOSFETs\r\ngate driver ICs\r\nrectifier modules\r\ninverter modules\r\ncircuit breakers\r\nmolded-case circuit breakers\r\nprotection relays\r\nPOWER ELECTRONICS & PROTECTION (SUPPLIER TOKENS)\r\nABB circuit breakers\r\nSchneider Electric breakers\r\nEaton breakers\r\nSiemens protection devices\r\nMitsubishi Electric power modules\r\nInfineon power semiconductors\r\nSTMicroelectronics power modules\r\nonsemi power devices\r\nCONTROL ELECTRONICS (INPUTS)\r\nPLC boards / industrial controllers\r\nmicrocontrollers (MCU) / embedded SoC modules\r\nindustrial Ethernet controllers\r\ntemperature sensors / humidity sensors / airflow sensors\r\nIoT gateway modules\r\nCONTROL ELECTRONICS (SUPPLIER TOKENS)\r\nNXP industrial MCU\r\nTexas Instruments industrial MCU\r\nSTMicroelectronics industrial MCU\r\nRenesas industrial MCU\r\nAdvantech embedded board\r\nKontron embedded computing\r\nSiemens PLC board OEM\r\nBATTERIES & ENERGY STORAGE (INPUTS)\r\nVRLA UPS batteries\r\nlithium-ion UPS batteries\r\nBESS container modules\r\nbattery racks\r\nBMS (battery management system)\r\nBATTERIES & ENERGY STORAGE (SUPPLIER TOKENS)\r\nCATL UPS batteries\r\nLG Energy Solution UPS batteries\r\nSamsung SDI UPS batteries\r\nPanasonic industrial batteries\r\nEnerSys data center batteries\r\nGS Yuasa industrial batteries\r\nBYD batteries\r\nREFRIGERANTS & COOLING MEDIA (INPUTS)\r\nHFO-1234ze(E) refrigerant\r\nHFO-1234yf refrigerant\r\nR-513A refrigerant\r\nR-410A refrigerant\r\nR-134a refrigerant\r\nglycol\u2013water coolant mix\r\nengineered dielectric coolant fluid\r\nimmersion cooling dielectric fluid\r\nREFRIGERANTS & COOLING MEDIA (SUPPLIER TOKENS)\r\nChemours Opteon refrigerants\r\nHoneywell Solstice refrigerants\r\nArkema Forane refrigerants\r\nLinde refrigerants\r\n3M dielectric fluid (immersion cooling)\r\nShell immersion cooling fluid\r\nExxonMobil immersion cooling fluid\r\nMECHANICAL COMPONENTS (INPUTS)\r\nEC fans for data centers\r\nrear-door heat exchangers (RDHx)\r\nplate heat exchangers\r\npumps for liquid cooling\r\ncontrol valves for coolant loops\r\nsheet metal enclosures\r\nserver racks and cabinets\r\nMECHANICAL COMPONENTS (SUPPLIER TOKENS)\r\nebm-papst data center fans\r\nZiehl-Abegg data center fans\r\nAlfa Laval heat exchangers\r\nSWEP plate heat exchangers\r\nDanfoss pumps and valves\r\nGrundfos pumps\r\nPentair enclosures\r\nRittal racks and cabinets\r\nLOGISTICS & FULFILLMENT TOKENS\r\nglobal container shipping data center equipment\r\nport congestion electronics / electrical equipment\r\nair freight critical power modules\r\nsemiconductor lead times industrial controls\r\nUS\u2013Mexico cross-border logistics / USMCA\r\nMexico trucking corridor electrical equipment\r\nheavy freight (UPS/FedEx) data center equipment\r\nrail freight switchgear and cabinets\r\nCAPACITY / FOOTPRINT TOKENS\r\nVertiv manufacturing expansion South Carolina Pelzer\r\nVertiv Mexico manufacturing USMCA qualified\r\nVertiv India factory Ambernath\r\nVertiv India manufacturing expansion\r\nVertiv Slovakia switchgear factory\r\nVertiv Ireland modular data center factory\r\nVertiv UAE Ras Al Khaimah plant\r\nVertiv liquid cooling capacity expansion\r\nVertiv modular/prefabricated capacity expansion\r\nVertiv supply chain diversification from China\r\nTRADE & TARIFF TOKENS (SEARCH BY JURISDICTION)\r\nUS\r\nSection 232 tariffs steel aluminum United States\r\nSection 301 tariffs China electronics United States\r\nreciprocal tariff proposals United States\r\nUSMCA rules of origin electrical equipment US Mexico Canada\r\nBuy American industrial equipment United States\r\nexport controls advanced cooling / high-performance computing United States\r\nEU\r\nEU CBAM carbon border adjustment steel aluminum European Union\r\nEU anti-dumping duties electrical equipment European Union\r\nEU trade defence measures electrical cabinets European Union\r\nCHINA\r\nChina retaliatory tariffs US electrical equipment\r\nChina export controls critical metals electronics\r\nENVIRONMENT & SUSTAINABILITY TOKENS\r\nUS\r\nUS EPA data center energy efficiency guidance\r\nUS DOE COOLERCHIPS advanced cooling program\r\nUS greenhouse gas reporting manufacturing\r\nstate water use restrictions industrial cooling\r\nEU / UK / GLOBAL\r\nEU ESOS energy savings opportunity scheme\r\nEU Ecodesign data center products\r\nEU energy efficiency directive data centers\r\nEU taxonomy climate mitigation data centers\r\nEU F-gas regulation / HFC phase-down\r\nUK ESOS / SECR reporting\r\nISO 14001 environmental management\r\nISO 50001 energy management\r\nISO 14064 GHG quantification\r\nCUSTOMER-SIDE ENVIRONMENT TOKENS (CUSTOMERS\u2019 PERMITTING / COMPLIANCE)\r\nEU data center sustainability regulation\r\nnational energy efficiency requirements data centers\r\nCalifornia Title 24 data center efficiency\r\nLEED data center certification\r\nwater scarcity cooling technology shift\r\nQUALITY / SAFETY / CONTINUITY / INFOSEC TOKENS\r\nISO 9001 quality management\r\nISO 45001 occupational health and safety\r\nISO 22301 business continuity\r\nISO 27001 information security\r\nUL certification UPS / PDU\r\nCE marking low voltage directive\r\nTELECOM / NETWORK STANDARDS TOKENS\r\n3GPP 5G RAN power and cooling requirements\r\nTIA telecom infrastructure standards\r\nETSI telecom site power standards\r\nFCC telecom infrastructure rules\r\nOfcom network reliability rules\r\nBEREC data center telecom guidance\r\nGEOGRAPHY TOKENS (FILTERS)\r\nVertiv Americas (North America, Latin America)\r\nVertiv APAC (Greater China, Southeast Asia, India, Australia & New Zealand)\r\nVertiv EMEA (Europe, Middle East, Africa)\r\nVertiv United States hyperscale data center\r\nVertiv Mexico manufacturing\r\nVertiv China data center market\r\nVertiv India manufacturing and sales\r\nVertiv EU data center customers\r\nVertiv Middle East UAE manufacturing\r\nVertiv Singapore data center cooling\r\nVertiv Australia data center thermal\r\nCOMPETITORS (POWER / COOLING)\r\nSchneider Electric data center\r\nEaton data center power\r\nABB data center power\r\nSiemens data center power\r\nHuawei Digital Power\r\nJohnson Controls data center cooling\r\nSTULZ data center cooling\r\nDaikin data center cooling\r\nTrane data center cooling\r\nCarrier data center cooling\r\nDanfoss data center cooling\r\nCOMPETITORS (IT / COMPUTE / ADJACENT)\r\nSuper Micro Computer liquid cooling\r\nHPE data center solutions\r\nCisco data center solutions\r\nDell Technologies data center infrastructure\r\nCOMPETITORS (MODULAR / EDGE / SPECIALTY)\r\nVapor IO modular edge data center\r\nSchneider EcoStruxure modular data center\r\nHPE edge data center solutions\r\n3M immersion cooling\r\nParker Hannifin thermal management\r\nAspen Systems electronics cooling\r\nSUBSTITUTION / DESIGN-CHOICE TOKENS\r\nair-cooled vs liquid-cooled data center\r\nprefabricated modular data center vs stick-built\r\nintegrated vendor stack power and cooling vs multi-vendor\r\nhyperscaler in-house data center design\r\nin-house liquid cooling (hyperscaler-designed)\r\nimmersion cooling vs DTC vs RDHx\r\nMACRO SENSITIVITY TOKENS\r\nhyperscaler AI capex boom\r\nhyperscaler capex slowdown\r\nAI infrastructure capex cycle\r\ndata center power shortage\r\ngrid capacity constraint data centers\r\nelectricity price spike data centers\r\nsteel price spike electrical equipment\r\ncopper price surge power infrastructure\r\ntariff shock electrical equipment\r\nsemiconductor shortage industrial controls\r\nlabor cost inflation manufacturing Mexico\r\nlabor cost inflation manufacturing India\r\nglobal shipping cost spike heavy equipment\r\nFX sensitivity (USD vs EMEA/APAC currencies)\r\nEXTERNAL EVENT TOKENS (COMPANY + MARKET)\r\nVertiv manufacturing expansion / consolidation\r\nVertiv capacity expansion / capacity constraint\r\nVertiv supply chain diversification update\r\nVertiv liquid cooling portfolio update\r\nVertiv modular/prefabricated data center launch\r\nVertiv AI infrastructure launch\r\nVertiv partnership announcement\r\nVertiv backlog disclosure\r\nVertiv earnings guidance update\r\nhyperscaler data center capex announcement\r\ncolocation data center campus announcement\r\ntelecom central office modernization program\r\nsemiconductor fab infrastructure tender\r\ntrade tariff update electrical equipment\r\nenvironmental regulation update data centers\r\nrefrigerant regulation update (F-gas / HFC phase-down)\r\nadvanced cooling research grant announcement\r\nSEARCH VOCABULARY & ALIAS MAP (DEDUPED)\r\ncompany identifiers: Vertiv, VRT\r\npower: UPS, power distribution, rack PDU, switchgear, busbar, busway, AC power, DC power, telecom DC plant, rectifier, inverter\r\nthermal: CRAC, CRAH, in-row cooling, chiller, free cooling, economization, heat rejection, evaporative cooling\r\nliquid/high-density: liquid cooling, CDU, coolant distribution unit, direct-to-chip (DTC), RDHx, immersion cooling, dielectric fluid\r\nsoftware/ops: DCIM, remote monitoring, predictive maintenance, service SLA, commissioning, field service\r\nBUSINESS SCOPE & BOUNDARIES\r\nIN-SCOPE\r\ncritical digital infrastructure\r\nmission-critical infrastructure\r\ndata center infrastructure (hyperscale, cloud, colocation/MTDC, enterprise/on-prem, edge/micro)\r\nAI / HPC data center infrastructure (accelerated computing, GPU clusters, high-density racks)\r\nedge computing infrastructure\r\ntelecom / communication networks infrastructure (telecom central office, wireless tower, 5G site power + cooling)\r\ncommercial & industrial critical environments\r\nhealthcare critical power\r\nsemiconductor fab critical power and cooling infrastructure\r\ndata center power systems (AC power management, DC power systems/telecom DC plants)\r\nUPS systems (single-phase UPS, three-phase UPS, rack UPS)\r\nrack power distribution (rack PDUs / intelligent PDUs)\r\nswitchgear (low voltage / medium voltage)\r\nbusbar / busway / busbar trunking systems\r\nthermal management (data center cooling, high-density cooling)\r\nliquid cooling systems (direct-to-chip liquid cooling, coolant distribution units/CDU, rear-door heat exchangers/RDHx)\r\nimmersion cooling infrastructure (dielectric fluids, immersion ecosystem)\r\nmodular / prefabricated data centers\r\ncontainerized data centers\r\nracks, cabinets, integrated rack systems\r\nKVM switches, serial consoles\r\nIT infrastructure management hardware + software\r\nDCIM / monitoring software\r\nremote monitoring services\r\npredictive maintenance services\r\nfield services (installation, commissioning, testing)\r\nmaintenance contracts / service SLAs\r\nservices & spares (consulting, training, spare parts)\r\nenergy storage solutions (UPS batteries, battery energy storage systems/BESS)\r\nOUT-OF-SCOPE (HARD EXCLUDES; SUPPRESS NOISY QUERIES)\r\ncloud services (SaaS / PaaS / IaaS as service delivery)\r\noperating/running data centers (colocation landlord / REIT operations)\r\ntelecom service delivery (consumer/mobile plans, carrier services)\r\nserver manufacturing; GPU / CPU manufacturing\r\nstorage arrays (SAN/NAS)\r\ngeneric building HVAC / comfort cooling (non-critical)\r\ngeneric facility management software\r\nbusiness applications (ERP / CRM)\r\nsemiconductor fabrication process tools\r\nrenewable generation ownership (solar/wind farms)\r\n\r\n\r\nPrompt\r\nConduct Company Research for Company Context\r\nConduct detailed research on Vertiv. Using the above criteria conduct in-depth research about the company, and produce the required context about the company that can be used to generate contextual search queries. Use sharp and concise language, not narratives. Note only current situation of the company, historical data is not needed. All information must be absolutely true. Look at reputed sources for information. Information is to be consumed by an LLM so the formatting is meant to be easily consumable by LLMs. Dont give as Json, give as text.\r\n\r\nBusiness scope & boundaries\r\nWhat businesses, markets, and activities are in scope\r\nWhat is explicitly out of scope (to prevent noisy queries)\r\n\r\n\r\nEnd markets served\r\nPrimary and secondary markets\r\nMarket terminology used externally (industry language)\r\n\r\n\r\nCustomer archetypes\r\nBuyer types (e.g., hyperscalers, colocation, enterprise, industrial)\r\nHow these customers are referred to in news and filings\r\n\r\n\r\nDemand triggers & dependency points\r\nExternal events that cause demand to rise/fall\r\nStructural dependencies (capex cycles, buildouts, refresh cycles)\r\n\r\n\r\nUpstream ecosystem dependencies\r\nIndustries or actors that drive demand indirectly\r\nCapex owners, infrastructure owners, platform players\r\n\r\n\r\nSupply chain & fulfillment dependencies\r\nCritical inputs/components\r\nLogistics or capacity dependencies that appear in external news\r\n\r\n\r\nRegulatory & policy exposure surfaces\r\nPolicies, permits, trade rules, standards that can show up in news\r\nGovernment bodies and regulators to watch\r\n\r\n\r\nGeographic exposure map\r\n\r\n\r\nRegions/countries where signals matter\r\nLocation-specific terminology used in reporting and media\r\n\r\n\r\nCompetitive & substitution landscape\r\nCompetitors, alternative technologies, adjacent solutions\r\nTerms journalists and analysts use to describe competition\r\n\r\n\r\nMacro sensitivity surfaces (not macro data itself)\r\nMacro variables that matter to this business\r\nWhere macro news intersects with customers or suppliers\r\n\r\n\r\nExternal event types that matter\r\nAnnouncements, capex plans, expansions, shutdowns, delays\r\nPolicy changes, shortages, strikes, financing changes\r\nSearch vocabulary & alias map\r\nProduct and solution keywords\r\nIndustry jargon and abbreviations\r\nSynonyms used across regions\r\nEntity watchlists\r\nCustomers, suppliers, partners, competitors\r\nGovernment agencies, standards bodies, trade groups",
   "metric": "Revenue",
   "drivers": [
     "Global Data Center Capex Cycles"
   ],
-  "queries": {},
-  "search_results": {}
+  "queries": {
+    "Global Data Center Capex Cycles": [
+      "Microsoft Azure expanding data center campuses driving demand for high-density cooling solutions",
+      "Google Cloud's hyperscale data center buildout requiring advanced power distribution systems",
+      "Equinix colocation facilities increasing procurement of modular UPS and cooling technologies",
+      "Amazon Web Services investing in AI data center infrastructure for enhanced computational capacity",
+      "NVIDIA deploying GPU clusters in new data centers necessitating liquid cooling systems",
+      "AT&T modernizing telecom central offices to support 5G infrastructure power upgrades",
+      "Verizon expanding edge data centers to enhance low-latency computing capabilities",
+      "Intel Foundry increasing semiconductor fab infrastructure to meet rising chip demand",
+      "Samsung Electronics expanding fabrication facilities requiring robust power management solutions",
+      "Telef\u00f3nica upgrading grid interconnections to support new data center energy requirements",
+      "CoreWeave's AI model training expansion driving demand for high-capacity cooling solutions",
+      "Digital Realty announcing new colocation campus signaling increased demand for energy-efficient systems"
+    ]
+  },
+  "search_results": {
+    "Global Data Center Capex Cycles": {
+      "Microsoft Azure expanding data center campuses driving demand for high-density cooling solutions": [
+        {
+          "title": "Data centres: The new tech stopping chips from overheating",
+          "url": "https://www.bbc.com/news/articles/cp8zd176516o",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 4,
+          "summary": "The article highlights the increasing demand for advanced cooling solutions in data centers, driven by the growth of AI technologies and the limitations of traditional cooling methods. It discusses innovative cooling technologies that can significantly reduce energy consumption, which is critical as data center operations expand. This trend is likely to impact revenue in the context of global data center capex cycles."
+        },
+        {
+          "title": "2025\u2019s Biggest Data Center Construction Stories: A Year in Review",
+          "url": "https://www.datacenterknowledge.com/data-center-construction/2025-s-biggest-data-center-construction-stories-a-year-in-review",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 4,
+          "summary": "The article highlights significant growth in the data center industry driven by AI and cloud computing, indicating a strong demand for infrastructure expansion. It discusses challenges such as power shortages and zoning regulations that could impact construction timelines and costs, which are critical for capital expenditure cycles. Overall, the content suggests a robust environment for data center capex, aligning well with the target metric."
+        },
+        {
+          "title": "Data centres: An emerging environmental menace",
+          "url": "https://timesofindia.indiatimes.com/blogs/voices/data-centres-an-emerging-environmental-menace/",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 4,
+          "summary": "The article highlights the rapid expansion of data centers in India driven by increased digital adoption and AI, indicating a significant demand for high-density cooling solutions. It discusses the environmental challenges associated with this growth, particularly regarding water and energy consumption, which could impact future capital expenditures in the data center sector. The focus on innovative cooling technologies and regulatory measures suggests a potential shift in demand dynamics that could influence revenue in the data center infrastructure market."
+        },
+        {
+          "title": "Most data centers are built in unsuitable climates \u2013 and it\u2019s seriously impacting efficiency | IT Pro",
+          "url": "https://www.itpro.com/infrastructure/data-centres/most-data-centers-are-built-in-unsuitable-climates-and-its-seriously-impacting-efficiency",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 4,
+          "summary": "The article highlights the challenges faced by data centers in unsuitable climates, emphasizing the need for improved cooling technologies. It discusses advancements by major tech firms like Microsoft and AWS in cooling solutions, which are critical for maintaining efficiency in high-density data center environments. This trend aligns with the global data center capex cycles, indicating a potential increase in demand for innovative cooling solutions."
+        },
+        {
+          "title": "Democratic senators question Google, Microsoft, Amazon and Meta over data center power use",
+          "url": "https://americanbazaaronline.com/2025/12/22/democratic-senators-question-google-microsoft-amazon-and-meta-over-data-center-power-use-472021/",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 4,
+          "summary": "The article highlights concerns from Democratic senators regarding the energy consumption of major tech companies' data centers, which could lead to increased electricity costs for consumers. This scrutiny may impact the expansion plans of these companies, directly linking to the global data center capex cycles. As energy demands rise with AI and cloud services, the potential for regulatory responses could influence future capital expenditures in the data center sector."
+        },
+        {
+          "title": "We mapped the world\u2019s hottest data centers - Rest of World",
+          "url": "https://restofworld.org/2025/data-center-heat-map/",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 4,
+          "summary": "The article highlights the growing demand for data centers in hot climates, particularly in Asia and the Middle East, driven by the need for AI infrastructure and local data storage. It emphasizes the challenges of cooling in these regions and the potential for increased electricity consumption, which could impact global data center capex cycles. This trend aligns with the target metric of revenue driven by global data center capex cycles."
+        },
+        {
+          "title": "FinancialContent - The Silicon Fortress: Microsoft\u2019s Azure AI Expansion Solidifies Its Dominance in the Enterprise Cloud War",
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2025-12-25-the-silicon-fortress-microsofts-azure-ai-expansion-solidifies-its-dominance-in-the-enterprise-cloud-war",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 5,
+          "summary": "The article highlights Microsoft's aggressive expansion of its Azure AI infrastructure, which is driving significant demand for high-density cooling solutions from companies like Vertiv. With Microsoft's projected CapEx reaching historic levels and a focus on AI model inference, the demand for data center infrastructure is expected to rise sharply, directly impacting revenue in the sector. This expansion aligns closely with the global data center CapEx cycles, indicating a strong signal for growth."
+        }
+      ],
+      "Google Cloud's hyperscale data center buildout requiring advanced power distribution systems": [
+        {
+          "title": "Did Hyperscalers Solve the Power Problem in 2025 \u2013 or Rethink It?",
+          "url": "https://www.datacenterknowledge.com/hyperscalers/did-hyperscalers-solve-the-power-problem-in-2025-or-rethink-it-",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 5,
+          "summary": "The article highlights a significant acceleration in cloud giants' data center construction driven by AI demand and power constraints, indicating a robust link to global data center capex cycles. It emphasizes the strategic shift towards securing power availability and low-carbon energy sources, which are critical for future capacity expansions. This strong focus on power and infrastructure directly impacts revenue growth in the data center sector."
+        },
+        {
+          "title": "Google drops $4.75bn on data center and energy firm Intersect | IT Pro",
+          "url": "https://www.itpro.com/infrastructure/data-centres/google-drops-usd4-75bn-on-data-center-and-energy-firm-intersect",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 5,
+          "summary": "The article highlights Google's acquisition of Intersect to enhance data center and energy capabilities, directly linking to the rising demand for data center infrastructure driven by AI. With significant investments in energy systems and a projected increase in data center power demand, this move is poised to impact global data center capex cycles positively."
+        },
+        {
+          "title": "Google buys Intersect for $4.75B to solve AI's power crisis",
+          "url": "https://ppc.land/google-buys-intersect-for-4-75b-to-solve-ais-power-crisis/",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 5,
+          "summary": "The article details Google's acquisition of Intersect, which significantly enhances its capacity for data center infrastructure and energy projects, directly addressing the rising demand for AI infrastructure. This acquisition is poised to impact global data center capex cycles positively, as it includes multiple gigawatts of energy and data center projects, aligning with the increasing capital expenditures in the sector. The strategic focus on energy innovation and infrastructure scalability further underscores the potential for substantial revenue growth in this market."
+        },
+        {
+          "title": "Google Wants More Energy to Fuel AI. It's Buying This Company to Help Power Its Data Centers.",
+          "url": "https://www.investopedia.com/google-wants-more-energy-to-fuel-ai-its-buying-this-company-to-help-power-its-data-centers-googl-11874390",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 4,
+          "summary": "Alphabet's acquisition of Intersect for $4.75 billion is a strategic move to enhance its energy infrastructure, directly supporting its AI data center buildout. This acquisition aligns with the company's commitment to expanding capacity and improving energy solutions, which is crucial for meeting the growing demands of data center infrastructure. The deal highlights the increasing capital expenditure in the data center sector, particularly driven by AI capabilities."
+        },
+        {
+          "title": "Google\u2019s $4.75B Power Play: Acquiring Intersect to Fuel the AI Revolution",
+          "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-25-googles-475b-power-play-acquiring-intersect-to-fuel-the-ai-revolution",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 5,
+          "summary": "Google's acquisition of Intersect Power for $4.75 billion directly addresses the urgent need for energy to support its AI data center expansion, indicating a significant shift in its operational strategy. This move not only secures a reliable power supply but also positions Google to lead in the competitive landscape of AI infrastructure, impacting global data center capex cycles. The integration of renewable energy generation and battery storage into its operations further enhances its capacity to scale AI workloads efficiently."
+        },
+        {
+          "title": "Data center - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Data_center",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 4,
+          "summary": "The article highlights the increasing demand for data centers driven by AI and machine learning workloads, which is expected to significantly impact global data center capex cycles. It notes the projected doubling of data center electricity consumption by 2030, indicating a strong growth trajectory in the sector. This aligns closely with the target metric of revenue driven by global data center capex cycles."
+        },
+        {
+          "title": "Powering AI: Why Google's $4.75B Intersect Deal Changes the Startup Infrastructure Game",
+          "url": "https://entrepreneurloop.com/google-intersect-deal-startup-infrastructure-game-changer/",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 5,
+          "summary": "The article highlights Google's acquisition of Intersect, a strategic move to enhance energy infrastructure for data centers, directly addressing the rising power demands of AI technologies. This acquisition is expected to significantly impact global data center capex cycles by enabling faster and more efficient energy solutions, thereby influencing revenue growth in the sector. The deal underscores a shift in how tech companies are approaching energy management, which is critical for future data center expansions."
+        },
+        {
+          "title": "Data center deals hit record $61 billion in 2025 amid construction frenzy",
+          "url": "https://www.cnbc.com/2025/12/19/data-center-deals-hit-record-amid-ai-funding-concerns-grip-investors.html",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 4,
+          "summary": "The article highlights a record surge in global data center investments, driven by the demand for infrastructure to support energy-intensive AI workloads. Despite concerns over inflated valuations, the expectation of continued strong demand for AI applications suggests a positive outlook for data center capex cycles. The significant increase in debt financing for hyperscalers further indicates robust investment activity in the sector."
+        }
+      ],
+      "Equinix colocation facilities increasing procurement of modular UPS and cooling technologies": [
+        {
+          "title": "Data center industry news, analysis, and opinion - DCD",
+          "url": "https://www.datacenterdynamics.com/en/",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 1,
+          "summary": "Article content unavailable or insufficient for reliable evaluation."
+        },
+        {
+          "title": "Dell and Equinix Partner on Infrastructure Solution",
+          "url": "https://www.channelinsider.com/infrastructure/dell-equinix-data-center-partnership/",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 3,
+          "summary": "The article discusses Dell Technologies' partnership with Equinix to create a hybrid infrastructure solution that enhances data center capabilities. This collaboration indicates potential growth in the data center market, particularly in hybrid solutions, which may influence global data center capex cycles. However, the direct impact on revenue metrics for Vertiv is not explicitly stated."
+        },
+        {
+          "title": "Philippines Data Centers, Colocation & AI-Ready Infrastructure",
+          "url": "https://www.equinix.com/data-centers/asia-pacific-colocation/philippines-colocation",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 4,
+          "summary": "The article highlights Equinix's strategic expansion in the Philippines, emphasizing the growth of the colocation market driven by local demand for cloud and AI-ready data centers. The mention of significant investment in infrastructure and sustainability initiatives indicates a strong alignment with global data center capex cycles, suggesting potential revenue growth for Equinix. Overall, the content reflects a positive signal for the company's performance in the context of increasing procurement of modular UPS and cooling technologies."
+        },
+        {
+          "title": "The End of Air Cooling? Liquid Cooling Becomes Mandatory for AI Data Centers",
+          "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-24-the-end-of-air-cooling-liquid-cooling-becomes-mandatory-for-ai-data-centers",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 5,
+          "summary": "The article highlights a significant shift in the data center industry towards direct-to-chip liquid cooling, driven by the increasing power density of AI hardware. This transition is expected to create substantial demand for infrastructure providers like Vertiv, directly linking to the global data center capex cycles. The mandatory adoption of liquid cooling technologies indicates a transformative impact on revenue generation in the sector."
+        },
+        {
+          "title": "What\u2019s Next for Equinix? Legal Uncertainty Cleared, And Global Expansion Ramps Up - Equinix (NASDAQ:EQIX) - Benzinga",
+          "url": "https://www.benzinga.com/Opinion/25/12/49575188/what-is-next-for-equinix-legal-uncertainty-cleared-global-expansion-ramps-up",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 4,
+          "summary": "The article highlights Equinix's significant growth initiatives, including a $22 million data center in Nigeria and an acquisition in Ireland, which are likely to drive revenue in the context of increasing global data center capex. Despite recent legal challenges, the company's strong financial performance and positive analyst sentiment suggest resilience and potential for future growth. Overall, these factors indicate a strong alignment with the driver of global data center capex cycles."
+        }
+      ],
+      "Amazon Web Services investing in AI data center infrastructure for enhanced computational capacity": [
+        {
+          "title": "Amazon makes stunning $11 billion move in race for AI supremacy: 'This is not some future project'",
+          "url": "https://www.thecooldown.com/green-business/amazon-ai-data-center-project-rainier/",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 4,
+          "summary": "The article highlights Amazon's significant investment in AI data center infrastructure, specifically the $11 billion Project Rainier in Indiana, which is already operational. This expansion is likely to drive increased demand for data center capacity and energy resources, directly impacting global data center capex cycles. However, concerns about energy costs and environmental impacts may influence future regulatory responses."
+        },
+        {
+          "title": "Prediction: This AI Cloud Company Could Be the Next Amazon of the 2030s | The Motley Fool",
+          "url": "https://www.fool.com/investing/2025/12/22/prediction-this-ai-cloud-company-could-be-the-next/",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 4,
+          "summary": "The article highlights the significant growth of CoreWeave in the AI data center infrastructure space, indicating a strong demand for cloud computing services driven by AI workloads. This growth, alongside the substantial capital expenditures required for data center operations, suggests a direct linkage to the global data center capex cycles. The focus on AI infrastructure investment by major players like Amazon Web Services further emphasizes the potential impact on revenue in this sector."
+        },
+        {
+          "title": "Cloud Computing Stocks Outlook Dec. 20, 2025: AI Data Center Boom Powers Microsoft, Amazon, Alphabet\u2014and Tests Oracle",
+          "url": "https://ts2.tech/en/cloud-computing-stocks-outlook-dec-20-2025-ai-data-center-boom-powers-microsoft-amazon-alphabet-and-tests-oracle/",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 5,
+          "summary": "The article highlights a significant increase in AI capital expenditure within the cloud computing sector, with a projected hyperscaler AI capex of $527 billion for 2026. This surge in demand for AI infrastructure directly correlates with the global data center capex cycles, indicating a strong movement in revenue potential for companies like Vertiv. The record pace of data-center dealmaking and the ongoing investments by major players further reinforce the likelihood of impacting revenue metrics."
+        },
+        {
+          "title": "Amazon Catalysts in 2026 and Beyond - by Bernardo",
+          "url": "https://www.levelheadedinvesting.com/p/amazon-catalysts-in-2026-and-beyond",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 5,
+          "summary": "The article highlights Amazon's significant capital expenditures in AI and data center infrastructure, which are expected to rise further, indicating strong investment in enhancing computational capacity. This investment is directly linked to the growth of AWS and its ability to capture AI workloads, suggesting a positive impact on revenue driven by global data center capex cycles. The focus on automation and efficiency improvements further supports the likelihood of sustained revenue growth."
+        },
+        {
+          "title": "Global Data Center Investments Surge to $61B in 2025 on AI Demand",
+          "url": "https://www.webpronews.com/global-data-center-investments-surge-to-61b-in-2025-on-ai-demand/",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 5,
+          "summary": "The article highlights a significant surge in global data center investments, reaching $61 billion in 2025, driven by the demand for AI infrastructure. This investment boom is closely linked to the capex cycles of hyperscalers like Amazon and Microsoft, indicating a strong correlation with the target metric of revenue. The focus on expanding data center capabilities to support AI workloads suggests a robust outlook for future growth in the sector."
+        },
+        {
+          "title": "How AI Data Centers Redefined the Industry in 2025",
+          "url": "https://www.datacenterknowledge.com/ai-data-centers/how-ai-data-centers-redefined-the-industry-in-2025",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 5,
+          "summary": "The article highlights significant investments in AI data center infrastructure, particularly AWS's $8 billion Project Rainier, which is expected to enhance computational capacity and efficiency. It emphasizes the growing demand for AI-optimized facilities and the shift towards liquid cooling systems to meet the power and heat requirements of AI workloads. These developments are likely to drive substantial growth in global data center capex cycles."
+        },
+        {
+          "title": "Amazon Web Services - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 5,
+          "summary": "The article highlights Amazon Web Services' (AWS) significant market share in cloud infrastructure and its ongoing investment in AI data center infrastructure, which directly correlates with increased global data center capital expenditure. AWS's expansion and service offerings indicate a strong demand for enhanced computational capacity, likely driving revenue growth in the sector."
+        },
+        {
+          "title": "Amazon\u2019s AI Infrastructure Bet Could Spark the Next Leg Higher for AMZN | Stansberry Research",
+          "url": "https://stansberryresearch.com/stock-market-trends/three-reasons-amazon-can-soar-as-it-mashes-the-ai-accelerator",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 4,
+          "summary": "The article highlights Amazon's significant investment in AI infrastructure, which is expected to enhance its computational capacity and drive revenue growth. With a focus on building dedicated AI data centers and custom chips, Amazon is positioning itself to capitalize on the AI boom, directly linking to the global data center capex cycles. The strong fundamentals and strategic partnerships further indicate a positive outlook for revenue growth in the coming years."
+        },
+        {
+          "title": "Top 15 AWS Machine Learning Tools in the Cloud Market for 2025",
+          "url": "https://www.veritis.com/blog/top-15-aws-machine-learning-tools-in-the-cloud/",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 4,
+          "summary": "The article highlights Amazon Web Services' significant investments in machine learning and AI infrastructure, indicating a strong demand for cloud services that could drive global data center capital expenditures. With AWS's dominant position in the market and the projected growth of the machine learning sector, this suggests a positive impact on revenue linked to increased data center capex cycles."
+        }
+      ],
+      "NVIDIA deploying GPU clusters in new data centers necessitating liquid cooling systems": [
+        {
+          "title": "Nvidia - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nvidia",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 5,
+          "summary": "The article highlights Nvidia's significant revenue growth driven by the rising global demand for AI data center hardware, particularly in the context of GPU clusters. This directly correlates with the global data center capex cycles, indicating a strong movement in the target metric. Nvidia's expansion and market dominance in AI infrastructure further emphasize the impact on revenue."
+        },
+        {
+          "title": "AI Data Centers Face Power Shortages, Threatening Boom: Nvidia CEO",
+          "url": "https://www.webpronews.com/ai-data-centers-face-power-shortages-threatening-boom-nvidia-ceo/",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 5,
+          "summary": "The article highlights significant delays in data center projects due to power supply and infrastructure bottlenecks, directly impacting the global data center capex cycles. With major tech companies investing heavily in AI infrastructure, the inability to meet power demands could hinder revenue growth in the sector. The urgency of addressing these challenges is underscored by industry leaders, indicating a strong correlation with the target metric."
+        },
+        {
+          "title": "New Tech Innovation Prevents Chip Overheating - El-Balad.com",
+          "url": "https://www.el-balad.com/6802349",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 4,
+          "summary": "The article highlights the urgent need for innovative cooling solutions in data centers, particularly liquid cooling technologies, driven by the rising demand from AI advancements. This trend is likely to impact global data center capex cycles positively, as companies seek to implement more efficient cooling systems to manage increased energy demands. The focus on reducing energy consumption and environmental concerns further underscores the significance of these developments in the industry."
+        },
+        {
+          "title": "Liquid Cooling Means More Performance And Less Heat For Supercomputing",
+          "url": "https://www.nextplatform.com/2025/12/22/liquid-cooling-means-more-performance-and-less-heat-for-supercomputing/",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 3,
+          "summary": "The article discusses the increasing demand for advanced cooling solutions, particularly liquid cooling systems, in the supercomputing sector driven by high-density compute needs. This trend aligns with the global data center capex cycles as companies seek to enhance efficiency and sustainability. While it highlights Lenovo's innovations, it indirectly signals a broader market movement that could impact revenue in the data center infrastructure space."
+        },
+        {
+          "title": "The Infrastructure Powering Silicon Valley\u2019s AI Dominance",
+          "url": "https://techresearchonline.com/blog/infrastructure-behind-silicon-valley/",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 4,
+          "summary": "The article highlights the increasing energy demands of Silicon Valley tech companies, particularly in relation to AI data centers and GPU clusters, which directly impacts the global data center capex cycles. It discusses the challenges posed by power grid limitations and regulatory delays, indicating a strong connection to the target metric of revenue driven by data center investments. Overall, the content suggests significant movement in the market influenced by these factors."
+        },
+        {
+          "title": "The Silicon Frontier: TSMC\u2019s A16 and Super Power Rail Redefine the AI Chip Race",
+          "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-23-the-silicon-frontier-tsmcs-a16-and-super-power-rail-redefine-the-ai-chip-race",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 5,
+          "summary": "The article highlights the significant advancements in semiconductor technology, particularly TSMC's A16 process, which is tailored for AI data centers. This innovation is expected to drive demand for advanced cooling solutions, such as liquid cooling, as data centers face power and thermal management challenges. The implications for global data center capex cycles are profound, as the need for efficient infrastructure to support high-performance AI workloads will likely increase."
+        },
+        {
+          "title": "AI servers now compete as much on heat management as on computing power",
+          "url": "https://www.digitimes.com/news/a20251219PD231/management-cooling-data-efficiency-liquid-cooling.html",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 3,
+          "summary": "The article highlights the growing importance of thermal management in data center design due to the rise of AI workloads, indicating a shift in performance metrics. This suggests potential demand for advanced cooling solutions, which could impact global data center capex cycles. However, the article does not provide specific details on investments or deployments that would directly influence revenue."
+        },
+        {
+          "title": "Why Decentralized GPU Clouds Are Inevitable - And Why Aethir Is Already There - DEV Community",
+          "url": "https://dev.to/roan911/why-decentralized-gpu-clouds-are-inevitable-and-why-aethir-is-already-there-63a",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 5,
+          "summary": "The article highlights a significant projected investment of $6.7 trillion in data centers by 2030 to meet AI compute demand, indicating a strong driver for global data center capex cycles. It discusses the challenges faced by centralized GPU providers, which could lead to increased demand for alternative solutions like decentralized GPU cloud computing. This shift in demand dynamics is likely to impact revenue in the data center sector significantly."
+        }
+      ],
+      "AT&T modernizing telecom central offices to support 5G infrastructure power upgrades": [
+        {
+          "title": "5G - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5G",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 2,
+          "summary": "The article discusses the deployment and advancements of 5G technology, highlighting the infrastructure requirements and potential applications. While it indicates a growing demand for telecom infrastructure, it does not directly link to specific capex plans or expansions by Vertiv or its customers. The relevance to Vertiv's revenue driven by global data center capex cycles is limited."
+        },
+        {
+          "title": "Telecom Power System Market Size to Reach USD 9.60 Billion by 2032, Expanding at a Robust 10.4% CAGR - Newstrail",
+          "url": "https://www.newstrail.com/telecom-power-system-market-size/",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 5,
+          "summary": "The article highlights significant growth in the Telecom Power System Market, driven by the expansion of telecom infrastructure and the rollout of 5G networks. It indicates a strong demand for advanced power solutions, which directly correlates with increased capital expenditure in the data center sector. This growth is expected to positively impact revenue metrics related to global data center capex cycles."
+        },
+        {
+          "title": "AT&T - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AT&T",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 3,
+          "summary": "The article provides a historical overview of AT&T Inc., highlighting its position as a major telecommunications company and its recent activities, including acquisitions and expansions. While it mentions the company's significant revenue and its role in the telecommunications sector, it lacks specific details on current initiatives related to 5G infrastructure power upgrades. The relevance to the target metric of revenue driven by global data center capex cycles is moderate."
+        },
+        {
+          "title": "AT&T Network Hits One Exabyte of Daily Data Traffic as Demand Surges Over the Past Decade - TelecomLead",
+          "url": "https://telecomlead.com/5g/att-network-hits-one-exabyte-of-daily-data-traffic-as-demand-surges-over-the-past-decade-123943",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 5,
+          "summary": "AT&T's announcement of reaching an average of one exabyte of data carried daily underscores a significant increase in digital connectivity and data consumption, driven by factors such as cloud services and AI. The company's ongoing investments in 5G infrastructure and fiber expansion are directly linked to the rising demand for data, indicating a strong potential impact on global data center capex cycles. This growth trajectory highlights the critical need for enhanced data center capabilities to support future connectivity requirements."
+        },
+        {
+          "title": "Telecoms Revolution: 2025 Pioneers New Space Tech & 6G | VoIP Review",
+          "url": "https://voip.review/2025/12/22/telecoms-revolution-2025-pioneers-new-space-tech-6g/",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 2,
+          "summary": "The article discusses various developments in the Test and Measurement sector, including advancements in AI data centers and 5G infrastructure. However, it primarily focuses on challenges faced by T&M suppliers due to reduced telco investments, which may indirectly affect data center capex cycles. The overall impact on global data center capex cycles and revenue is limited."
+        },
+        {
+          "title": "GCC 5G Services Market To Grow Substantially At A CAGR Of 26.72% From 2025 To 2034",
+          "url": "https://www.openpr.com/news/4325210/gcc-5g-services-market-to-grow-substantially-at-a-cagr-of-26-72",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 5,
+          "summary": "The article highlights the GCC 5G services market's projected growth at a CAGR of 26.72% from 2025 to 2034, driven by strong government support and increasing demand for high-speed connectivity. This growth is directly linked to the global data center capex cycles, as telecom operators modernize infrastructure to support 5G. The anticipated market expansion indicates significant investment potential, which is likely to impact revenue positively."
+        },
+        {
+          "title": "Don\u2019t solve the power reliability crisis by creating an affordability crisis - Atlantic Council",
+          "url": "https://www.atlanticcouncil.org/dispatches/dont-solve-the-power-reliability-crisis-by-creating-an-affordability-crisis/",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 5,
+          "summary": "The article highlights a significant reliability crisis in the US power grid, driven by increasing electricity demand from data centers, which is leading to higher costs for consumers. This situation directly impacts the global data center capex cycles, as utilities face pressure to upgrade infrastructure to accommodate this demand. The focus on reliability over affordability in grid planning suggests that data center expansions will continue to drive capital expenditures, influencing revenue metrics."
+        },
+        {
+          "title": "List of 5G NR networks - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_5G_NR_networks",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 2,
+          "summary": "The article provides a list of global 5G network deployments, indicating ongoing activity in the telecom sector. However, it lacks specific details on AT&T's modernization efforts or direct implications for data center capex cycles. The connection to the target metric of revenue through global data center capex cycles is weak."
+        }
+      ],
+      "Verizon expanding edge data centers to enhance low-latency computing capabilities": [
+        {
+          "title": "The Enterprise \"Anti-Cloud\" Thesis: Repatriation of AI Workloads to On-Premises Infrastructure | The AI Journal",
+          "url": "https://aijourn.com/the-enterprise-anti-cloud-thesis-repatriation-of-ai-workloads-to-on-premises-infrastructure/",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 4,
+          "summary": "The article highlights a significant shift towards on-premises AI workloads across various industries, driven by data sovereignty and compliance requirements. This trend indicates a potential increase in capital expenditures for data center infrastructure, particularly in sectors like finance, healthcare, and manufacturing. The focus on internal AI capabilities suggests a strong demand for critical digital infrastructure, aligning well with the global data center capex cycles."
+        },
+        {
+          "title": "Satellite Internet AI Meets Edge Computing Connectivity: Powering Future Remote Computing Workflows",
+          "url": "https://www.techtimes.com/articles/313577/20251223/satellite-internet-ai-meets-edge-computing-connectivity-powering-future-remote-computing-workflows.htm",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 2,
+          "summary": "The article discusses the convergence of satellite internet and edge computing for AI applications in remote locations, highlighting potential use cases and challenges. While it indicates a growing trend in remote computing, it does not directly link to specific data center capex cycles or Vertiv's business activities. The relevance to the target metric of revenue driven by global data center capex cycles is limited."
+        },
+        {
+          "title": "AI for Everything: Telco AI Trends for 2026",
+          "url": "https://www.thefastmode.com/expert-opinion/46532-ai-for-everything-telco-ai-trends-for-2026",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 4,
+          "summary": "The article highlights the significant role of AI in transforming telecommunications operations, particularly in enhancing network reliability and customer service. It indicates that as telcos expand their infrastructure to support low-latency connectivity, this will likely drive increased capital expenditure in data centers. The focus on AI integration and automation suggests a strong potential for growth in the data center market, aligning well with the global data center capex cycles."
+        },
+        {
+          "title": "Verizon - 2025 Company Profile, Team, Funding, Competitors & Financials - Tracxn",
+          "url": "https://tracxn.com/d/companies/verizon/__swDREIOXeDQwq0JB7-E9TMHTLB1Ab8gYRsZ2JiQCn74",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 1,
+          "summary": "The article provides a list of various providers of mobile network services and their respective scores, but it lacks specific information about Verizon's expansion of edge data centers or any direct impact on global data center capex cycles. Therefore, it does not strongly indicate movement in the target metric."
+        },
+        {
+          "title": "AI and Latency: Why Milliseconds Decide Data Center Winners",
+          "url": "https://www.datacenterknowledge.com/infrastructure/ai-and-latency-why-milliseconds-decide-winners-and-losers-in-the-data-center-race",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 5,
+          "summary": "The article highlights the critical importance of low-latency infrastructure for AI applications, emphasizing that latency directly impacts performance and ROI. It discusses the growing demand for latency-optimized data centers, particularly for inference workloads, which are expected to drive significant capital expenditures in the data center sector. This trend aligns closely with the global data center capex cycles, indicating a strong potential impact on revenue."
+        },
+        {
+          "title": "The mobile core\u2019s dynamic future: AI, edge, disaster protection, and non-terrestrial networks (Reader Forum)",
+          "url": "https://www.rcrwireless.com/20251219/network-infrastructure/mobile-core-future",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 4,
+          "summary": "The article highlights significant advancements in mobile core technologies, particularly in AI and edge access, which are expected to drive demand for data center infrastructure. The emphasis on optimizing traffic routing and enhancing resilience through AI indicates a strong linkage to the global data center capex cycles. As telcos enhance their capabilities to support AI and edge computing, this will likely lead to increased investment in data center infrastructure."
+        },
+        {
+          "title": "Data center infrastructure in 2026 | Communications Today",
+          "url": "https://www.communicationstoday.co.in/data-center-infrastructure-in-2026/",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 4,
+          "summary": "The article highlights a significant shift in hyperscale AI infrastructure investment, emphasizing the need for near-edge data centers to meet increasing demand for AI inference workloads. This trend indicates a strong capex cycle driven by the need for enhanced infrastructure, which is likely to impact revenue positively. However, rising component costs and scrutiny over ROI may introduce challenges."
+        }
+      ],
+      "Intel Foundry increasing semiconductor fab infrastructure to meet rising chip demand": [
+        {
+          "title": "Can Intel\u2019s New Arizona Chip Fab Bring It Back From The Brink? - YouTube",
+          "url": "https://www.youtube.com/watch?v=YFE0zNMqQyg",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 1,
+          "summary": "Article content unavailable or insufficient for reliable evaluation."
+        },
+        {
+          "title": "Intel's Fab 52 is bigger and better equipped than TSMC's Arizona facilities \u2014 Intel's production volume dwarfs TSMC's operations in the U.S. | Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-52-is-bigger-and-better-equipped-than-tsmcs-arizona-facilities-intels-production-volumes-dwarf-tsmcs-operations-in-the-u-s",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 4,
+          "summary": "The article highlights Intel's advancements in semiconductor fab infrastructure, particularly with its Fab 52, which is designed to produce chips using cutting-edge technologies. This development is likely to drive demand in the global data center capex cycles as it positions Intel competitively against TSMC, potentially impacting revenue in the sector."
+        },
+        {
+          "title": "Semiconductor Stocks Today (Dec 25, 2025): Nvidia\u2013Groq Deal, Micron\u2019s HBM Boom, Intel Foundry Questions, and 2026 Forecasts",
+          "url": "https://ts2.tech/en/semiconductor-stocks-today-dec-25-2025-nvidia-groq-deal-microns-hbm-boom-intel-foundry-questions-and-2026-forecasts/",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 4,
+          "summary": "The article highlights significant developments in the semiconductor sector, particularly regarding AI-driven demand and capital expenditures, which are expected to influence data center infrastructure investments. Intel's foundry challenges and Micron's increased capex signal a strong correlation with the global data center capex cycles. Overall, the content suggests a positive outlook for revenue growth in the context of rising AI infrastructure needs."
+        },
+        {
+          "title": "Intel Showcases Its Next-Level & Massively Scalable Packaging Capabilities: >12X Reticle With 16 Compute Tiles On 18A/14A Nodes, Up To 24 HBM Sites & Leveraging Advanced Foveros 3D & EMIB Technologies",
+          "url": "https://wccftech.com/intel-next-level-advanced-packaging-capabilities-12x-reticle-16-compute-tiles-18a-14a-nodes-up-to-24-hbm-foveros-3d-emib/",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 3,
+          "summary": "The article discusses Intel's advancements in semiconductor packaging technologies aimed at enhancing performance for HPC, AI, and data centers. While it highlights Intel's competitive positioning and potential for increased demand in the data center market, it does not provide concrete evidence of immediate capex cycles or specific customer engagements that would directly impact revenue. The focus on future technologies suggests a positive outlook but lacks immediate actionable insights."
+        },
+        {
+          "title": "Intel aims to find clients and catch TSMC with new chip fab in Arizona",
+          "url": "https://www.cnbc.com/2025/12/19/intel-aims-to-find-clients-and-catch-tsmc-with-new-chip-fab-in-arizona.html",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 3,
+          "summary": "The article discusses Intel's efforts to regain its position in the semiconductor market through the production of its new 18A chip node and the establishment of its Fab52 facility. While there are significant investments and potential for future demand, the current reliance on internal production and challenges in attracting external customers may limit immediate revenue growth. The focus on advanced manufacturing and partnerships indicates a strategic shift that could influence future capital expenditures in the data center sector."
+        },
+        {
+          "title": "FinancialContent - The High-Stakes Gamble: Can Intel\u2019s Foundry Resurgence Finally Dent TSMC\u2019s Dominance in 2026?",
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2025-12-25-the-high-stakes-gamble-can-intels-foundry-resurgence-finally-dent-tsmcs-dominance-in-2026",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 4,
+          "summary": "The article highlights Intel's significant advancements in semiconductor manufacturing, particularly with its new 18A process node, which is crucial for meeting rising chip demand. The partnerships with major hyperscalers like Microsoft and Amazon indicate a strategic shift that could drive increased capital expenditures in the data center sector. However, Intel's ongoing financial struggles and reliance on government support introduce uncertainty regarding its ability to capitalize on this momentum."
+        },
+        {
+          "title": "Intel 18A & The European Pivot: Reclaiming the Foundry Crown",
+          "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-23-intel-18a-and-the-european-pivot-reclaiming-the-foundry-crown",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 5,
+          "summary": "Intel's successful transition to High-Volume Manufacturing of the 18A process node and its partnerships with major tech players like Microsoft and Amazon indicate a strong demand for semiconductor infrastructure, directly impacting global data center capex cycles. The strategic focus on U.S.-based manufacturing amidst geopolitical shifts further emphasizes the importance of domestic capacity in meeting rising chip demand. This alignment with the target metric suggests a significant positive movement in revenue driven by increased capex in the data center sector."
+        },
+        {
+          "title": "NVIDIA Did Test Intel\u2019s 18A Process, But Reportedly Stopped Moving Forward, Suggesting No Foundry Deal From the AI Giant for Now",
+          "url": "https://wccftech.com/nvidia-had-tested-out-intel-18a-process-but-stopped-moving-forward/",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 3,
+          "summary": "The article discusses Intel's efforts to secure external customers for its semiconductor chips, particularly the 18A and 14A nodes, which are relevant to the foundry market. While there is interest from major companies like NVIDIA, the article highlights challenges in Intel's manufacturing quality and the competitive landscape with TSMC. This indicates potential fluctuations in global data center capex cycles, but the impact on revenue remains uncertain."
+        }
+      ],
+      "Samsung Electronics expanding fabrication facilities requiring robust power management solutions": [
+        {
+          "title": "Samsung Electronics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Electronics",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 1,
+          "summary": "The article provides general information about Samsung Electronics, including its history, products, and market position. However, it does not contain specific details about current expansions or investments in data center infrastructure that would directly impact global data center capex cycles or Vertiv's revenue."
+        },
+        {
+          "title": "Samsung introduces SOCAMM2 LPDDR5X memory module for AI data centers \u2014 new standard set to offer reduced power consumption and double the bandwidth versus DDR5 RDIMMs | Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/samsung-introduces-socamm2-lpddr5x-memory-module-for-ai-data-centers",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 4,
+          "summary": "Samsung's introduction of the SOCAMM2 LPDDR5-based memory module for AI data centers addresses rising memory power costs and density constraints, indicating a significant shift in memory technology that aligns with the growing demand for efficient AI infrastructure. This development is likely to influence global data center capex cycles as companies seek to optimize performance and reduce operational costs. The alignment with JEDEC standards further enhances its potential adoption across the industry."
+        },
+        {
+          "title": "Samsung, SK hynix accelerate memory output amid AI boom",
+          "url": "https://koreajoongangdaily.joins.com/news/2025-12-21/business/industry/Samsung-SK-hynix-accelerate-memory-output-amid-AI-boom/2482704",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 4,
+          "summary": "The article highlights Samsung Electronics' expansion of its semiconductor fabrication facilities in response to increasing demand for AI-related memory products. This expansion is likely to drive significant capital expenditure in the data center sector, aligning with the global data center capex cycles. The projected growth in the DRAM market further supports the relevance of this development."
+        },
+        {
+          "title": "Samsung bets on India for deeper manufacturing push, eyes local display production under PLI",
+          "url": "https://www.newindianexpress.com/business/2025/Dec/24/samsung-bets-on-india-for-deeper-manufacturing-push-eyes-local-display-production-under-pli",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 3,
+          "summary": "Samsung's expansion into display manufacturing in India indicates a strategic shift towards local production, which could enhance the robustness of its supply chain and reduce reliance on imports. This move aligns with broader trends in global data center capex cycles, as it may drive demand for power management solutions. However, challenges in infrastructure and supplier maturity in India could temper the immediate impact on revenue."
+        },
+        {
+          "title": "Where are Samsung phones made? It's not where you think - SamMobile",
+          "url": "https://www.sammobile.com/where-are-samsung-phones-made/",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 1,
+          "summary": "The article primarily discusses Samsung's smartphone manufacturing locations and strategies, with no direct reference to data center capex cycles or power management solutions. It does not indicate any significant movement in the target metric of revenue driven by global data center capex cycles. The content is largely focused on consumer electronics rather than critical digital infrastructure."
+        },
+        {
+          "title": "Samsung Seeks PLI Extension For Smartphones, Eyes India As Production Hub",
+          "url": "https://inc42.com/buzz/samsung-seeks-pli-extension-for-smartphones-eyes-india-as-production-hub/",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 2,
+          "summary": "The article discusses Samsung's plans to expand its semiconductor manufacturing capabilities in India under the PLI scheme, which may indirectly influence the demand for data center power management solutions. However, the connection to global data center capex cycles is weak, as the focus is primarily on mobile components rather than data center infrastructure. Overall, while there is potential for increased demand, the direct impact on the target metric is limited."
+        },
+        {
+          "title": "The Place Lee Jae-yong Visited Three Times... The Future of Samsung Depends on It - MK",
+          "url": "https://www.mk.co.kr/en/business/11504559",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 4,
+          "summary": "The article highlights Samsung Electronics' significant investment in semiconductor R&D and its plans to expand production capacity for High Bandwidth Memory (HBM), indicating a strong demand for advanced semiconductor technologies. This expansion aligns with the global data center capex cycles, suggesting a positive impact on revenue through increased demand for robust power management solutions. The focus on technological leadership and capacity growth positions Samsung favorably within the critical digital infrastructure market."
+        },
+        {
+          "title": "Samsung - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Samsung",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 1,
+          "summary": "The article provides general information about Samsung as a conglomerate and its historical context, but it does not contain specific details about current expansions or investments in fabrication facilities that would directly impact global data center capex cycles or Vertiv's revenue."
+        }
+      ],
+      "Telef\u00f3nica upgrading grid interconnections to support new data center energy requirements": [
+        {
+          "title": "Alphabet Buying Clean Energy Developer to Support Data Centers",
+          "url": "https://www.powermag.com/alphabet-buying-clean-energy-developer-to-support-data-centers/",
+          "source": null,
+          "published": null,
+          "rank": 7,
+          "score": 4,
+          "summary": "Alphabet's acquisition of Intersect for $4.75 billion aims to enhance data center and energy infrastructure capacity, directly supporting Google's data center investments. This move is expected to accelerate energy development and innovation, which aligns with the global data center capex cycles. The transaction indicates a strong commitment to expanding energy supply and infrastructure, likely impacting revenue positively."
+        },
+        {
+          "title": "RPA | The State of the Grid in New Jersey (2025)",
+          "url": "https://rpa.org/news/lab/the-state-of-the-grid-in-new-jersey",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 3,
+          "summary": "The article discusses the New Jersey Board of Public Utilities' (BPU) initiatives to modernize the grid and expand energy storage, which could indirectly support data center energy requirements. While it highlights regulatory changes and infrastructure planning that may influence data center operations, the direct impact on global data center capex cycles remains uncertain. Overall, the developments signal potential improvements in energy infrastructure that could benefit data centers in the region."
+        },
+        {
+          "title": "Georgia Power\u2019s $15B Data Center Energy Expansion Heads to Georgia PSC Vote as AI Power Demand Triggers New Federal Grid Rules",
+          "url": "https://ts2.tech/en/georgia-powers-15b-data-center-energy-expansion-heads-to-georgia-psc-vote-as-ai-power-demand-triggers-new-federal-grid-rules/",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 5,
+          "summary": "The article highlights Georgia Power's plan to expand electricity supply significantly to meet the rising demand from data centers and AI-driven computing, indicating a strong correlation with global data center capex cycles. The proposed $15 billion investment in new electricity resources, primarily for data centers, underscores the urgency and scale of infrastructure development in response to increasing data center energy requirements. This expansion is likely to have a substantial impact on revenue metrics tied to data center investments."
+        },
+        {
+          "title": "Energy evolution: Meeting the demands of an AI-powered world | Utility Dive",
+          "url": "https://www.utilitydive.com/news/ai-grid-data-center-epri/807800/",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 4,
+          "summary": "The article highlights the significant increase in electricity demand driven by data centers, particularly due to AI, which is expected to account for nearly half of the growth in U.S. electricity demand by 2030. It discusses the challenges of grid interconnection for new data centers and the potential for demand-side solutions to alleviate these issues, indicating a strong link to global data center capex cycles. This suggests a positive impact on revenue metrics for companies involved in data center infrastructure."
+        },
+        {
+          "title": "Interconnections With Renewables Turn Existing Power Plants Green - IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/amp/renewables-existing-power-plants-green-2674814447",
+          "source": null,
+          "published": null,
+          "rank": 9,
+          "score": 3,
+          "summary": "The article discusses the rising demand for electricity driven by AI data centers and the innovative generator replacement interconnection process that can expedite renewable energy integration. This indicates potential growth in the data center sector, which could influence global data center capex cycles. However, the focus on interconnection rights and renewable energy may not directly correlate with immediate revenue impacts for Vertiv."
+        },
+        {
+          "title": "Philly area faces increased risk of blackouts amid projected data centers growth",
+          "url": "https://whyy.org/articles/philadelphia-region-power-outage-blackout-risk/",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 5,
+          "summary": "The article highlights a significant shortfall in electricity supply due to rising demand from data centers, as indicated by PJM Interconnection's capacity auction results. This structural deficit poses a risk of blackouts and underscores the urgent need for infrastructure upgrades to meet future energy requirements, directly impacting global data center capex cycles. The situation suggests a strong correlation between data center demand and the need for increased capital expenditure in energy infrastructure."
+        },
+        {
+          "title": "FERC orders PJM to craft large load colocation rules | Utility Dive",
+          "url": "https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 4,
+          "summary": "The FERC's order for PJM to develop rules for colocating data centers at power plants signals a significant regulatory shift that could enhance the integration of large loads, including data centers, into the energy grid. This decision is likely to alleviate concerns about rising electricity costs and improve regulatory certainty for data center operators, potentially driving increased capital expenditure in the data center sector. The focus on accommodating large loads aligns with the ongoing global data center capex cycles."
+        },
+        {
+          "title": "Home efficiency upgrades could offset data center loads while creating jobs: report | Utility Dive",
+          "url": "https://www.utilitydive.com/news/home-efficiency-data-center-loads/808572/",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 4,
+          "summary": "The article discusses a $50 million investment in residential efficiency upgrades that could offset 10% of the peak load for a hypothetical 200-MW data center, indicating a proactive approach to managing energy demands. This aligns with the broader trend of hyperscalers exploring community-focused energy solutions, which could influence future data center capex cycles. The findings suggest potential cost savings and job creation, highlighting the interconnectedness of data center operations and local energy policies."
+        }
+      ],
+      "CoreWeave's AI model training expansion driving demand for high-capacity cooling solutions": [
+        {
+          "title": "CoreWeave Stock (NASDAQ: CRWV) News Today: Why Shares Are Moving, Latest AI Data-Center Catalysts, and Wall Street Forecasts (Dec. 23, 2025)",
+          "url": "https://ts2.tech/en/coreweave-stock-nasdaq-crwv-news-today-why-shares-are-moving-latest-ai-data-center-catalysts-and-wall-street-forecasts-dec-23-2025/",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 4,
+          "summary": "The article highlights CoreWeave's significant revenue backlog of $55.6 billion and its recent agreements with major clients like Meta and OpenAI, indicating strong demand for AI infrastructure. Additionally, the mention of CoreWeave's expansion into public-sector workloads and the potential for high-value federal contracts further supports the positive outlook on revenue growth. However, concerns about financing and execution risks could temper the overall impact on revenue."
+        },
+        {
+          "title": "Applied Digital vs. CoreWeave: Better Stock to Own in 2026? | The Motley Fool",
+          "url": "https://www.fool.com/investing/2025/12/23/applied-digital-coreweave-better-stock-own-2026/",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 5,
+          "summary": "The article highlights CoreWeave's aggressive capital expenditure plans to meet soaring demand for AI services, indicating a strong growth trajectory for data center infrastructure. This directly correlates with the global data center capex cycles, suggesting significant revenue potential for companies involved in high-capacity cooling solutions. The intertwined relationship between CoreWeave and Applied Digital further emphasizes the demand for critical digital infrastructure."
+        },
+        {
+          "title": "CoreWeave Stock Jumps on DOE Genesis Mission Buzz\u2014What\u2019s Driving CRWV and Why AI Bubble Fears Haven\u2019t Gone Away (Dec. 22, 2025)",
+          "url": "https://ts2.tech/en/coreweave-stock-jumps-on-doe-genesis-mission-buzz-whats-driving-crwv-and-why-ai-bubble-fears-havent-gone-away-dec-22-2025/",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 4,
+          "summary": "The article highlights CoreWeave's participation in the U.S. Department of Energy's Genesis Mission, which is expected to drive demand for AI infrastructure and potentially diversify its customer base. This initiative, along with a recent stock rebound, indicates a positive outlook for CoreWeave's revenue linked to the broader AI data center capex cycle. However, concerns about execution risks and customer concentration remain significant."
+        },
+        {
+          "title": "Is CoreWeave's AI Infrastructure Boom Sustainable Amid Rising Capital and Execution Risks?",
+          "url": "https://www.ainvest.com/news/coreweave-ai-infrastructure-boom-sustainable-rising-capital-execution-risks-2512/",
+          "source": null,
+          "published": null,
+          "rank": 1,
+          "score": 4,
+          "summary": "CoreWeave's rapid expansion in AI infrastructure, marked by significant revenue growth and capital expenditures, indicates strong demand for high-capacity cooling solutions. However, execution risks and rising debt levels pose challenges that could impact its sustainability and ability to capitalize on the growing global data center capex cycles. The article highlights the competitive landscape, positioning CoreWeave as a riskier player compared to established hyperscalers."
+        },
+        {
+          "title": "1 Magnificent Nasdaq Stock to Buy Before It Soars 76% in 2026, According to Wall Street | The Motley Fool",
+          "url": "https://www.fool.com/investing/2025/12/20/1-magnificent-nasdaq-stock-to-buy-before-it-soars/",
+          "source": null,
+          "published": null,
+          "rank": 5,
+          "score": 5,
+          "summary": "CoreWeave is experiencing significant growth driven by increased demand for AI data center capacity, with projected revenue expected to exceed $12 billion in 2026. The company's substantial backlog and aggressive capacity expansion plans position it favorably within a supply-constrained environment. This strong demand signal directly correlates with the global data center capex cycles, indicating a robust impact on revenue."
+        },
+        {
+          "title": "CoreWeave: The Most Hated AI Stock - Now A Screaming Buy (Rating Upgrade) (NASDAQ:CRWV) | Seeking Alpha",
+          "url": "https://seekingalpha.com/article/4854711-coreweave-the-most-hated-ai-stock-now-a-screaming-buy-rating-upgrade",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 1,
+          "summary": "The article does not provide any relevant information regarding Vertiv or its impact on global data center capex cycles. It primarily focuses on the author's background and investment group without discussing specific market movements or drivers related to the target metric."
+        },
+        {
+          "title": "CoreWeave (CRWV): Is the AI Infrastructure Bear Case Overblown?",
+          "url": "https://www.ainvest.com/news/coreweave-crwv-ai-infrastructure-bear-case-overblown-2512/",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 4,
+          "summary": "The article highlights CoreWeave's significant contract backlog and the projected explosive growth in the AI infrastructure market, indicating strong demand for data center capacity. However, it also raises concerns about the company's high debt levels and operational challenges, which could impact its ability to capitalize on this demand. Overall, the article suggests a strong potential for revenue growth driven by the global data center capex cycles."
+        }
+      ],
+      "Digital Realty announcing new colocation campus signaling increased demand for energy-efficient systems": [
+        {
+          "title": "2025 Cloud Highlights: AI, Outages, and Future Infrastructure",
+          "url": "https://www.datacenterknowledge.com/cloud/2025-cloud-highlights-ai-outages-and-the-future-of-infrastructure",
+          "source": null,
+          "published": null,
+          "rank": 4,
+          "score": 5,
+          "summary": "The article highlights significant trends in cloud computing and AI demand, emphasizing the critical role of data centers in supporting hybrid models and addressing capacity constraints. It discusses the impact of infrastructure limitations on major cloud providers, directly linking these challenges to the global data center capex cycles. The insights provided indicate a strong movement in the metric of revenue driven by increased demand for energy-efficient systems and infrastructure investments."
+        },
+        {
+          "title": "Data Center Stocks in 2025: AI Capex Forecasts, Power Constraints, and the 2026 Outlook (Dec. 25, 2025)",
+          "url": "https://ts2.tech/en/data-center-stocks-in-2025-ai-capex-forecasts-power-constraints-and-the-2026-outlook-dec-25-2025/",
+          "source": null,
+          "published": null,
+          "rank": 2,
+          "score": 5,
+          "summary": "The article highlights significant projected capital expenditure increases in the data center sector, driven by AI and hyperscaler demand, which directly impacts revenue for companies like Vertiv. It emphasizes the critical role of grid capacity and regulatory factors in shaping investment decisions, indicating a strong linkage to the target metric of revenue. The ongoing construction announcements and M&A activity further signal robust demand for data center infrastructure, reinforcing the positive outlook for revenue growth."
+        },
+        {
+          "title": "Google Buys Data Center Company for $4.75 Billion - The New York Times",
+          "url": "https://www.nytimes.com/2025/12/22/technology/google-intersect-data-centers.html",
+          "source": null,
+          "published": null,
+          "rank": 10,
+          "score": 4,
+          "summary": "Google's acquisition of Intersect for $4.75 billion signals a significant investment in data center infrastructure to support AI capabilities, indicating a strong demand for energy-efficient systems. This move aligns with the broader trend of major tech companies committing substantial capital to expand their data center capacities. The deal is likely to influence global data center capex cycles positively."
+        },
+        {
+          "title": "Will Board Refresh and Bullish Coverage on AI Data Centers Change Digital Realty Trust\u2019s (DLR) Narrative",
+          "url": "https://finance.yahoo.com/news/board-refresh-bullish-coverage-ai-050728777.html",
+          "source": null,
+          "published": null,
+          "rank": 8,
+          "score": 4,
+          "summary": "The article highlights Digital Realty's significant development pipeline and backlog, which are directly tied to the increasing demand for AI-driven data center infrastructure. Goldman Sachs' positive coverage reinforces the potential for revenue growth, particularly as the company navigates capital market conditions. This suggests a strong likelihood of impacting future revenue metrics."
+        },
+        {
+          "title": "Multi-Tenant Data Center Market Expected to Hit USD 112.38 Billion by 2032 with Secure IT Infrastructure - Newstrail",
+          "url": "https://www.newstrail.com/multi-tenant-data-center-market-report/",
+          "source": null,
+          "published": null,
+          "rank": 6,
+          "score": 5,
+          "summary": "The article highlights significant growth in the Multi-Tenant Data Center (MTDC) market, driven by rising cloud adoption and digital transformation, which directly correlates with increased global data center capital expenditure. With a projected market value increase from USD 39.86 billion in 2024 to USD 112.38 billion by 2032, the demand for energy-efficient systems is expected to rise sharply. This strong growth signal indicates a robust impact on revenue metrics for companies involved in data center infrastructure."
+        },
+        {
+          "title": "Data Center Sustainability Trends: 10 Stories That Defined 2025",
+          "url": "https://www.datacenterknowledge.com/sustainability/data-center-sustainability-trends-10-stories-that-defined-the-year",
+          "source": null,
+          "published": null,
+          "rank": 3,
+          "score": 5,
+          "summary": "The article highlights the urgent shift towards sustainability in the data center industry, driven by AI growth and increasing regulatory scrutiny. It emphasizes the critical importance of water usage and energy sourcing in planning and building new data centers, directly linking these factors to the demand for energy-efficient systems. This strong focus on sustainability and resource management is likely to significantly impact global data center capex cycles."
+        }
+      ]
+    }
+  }
 }
